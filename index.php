@@ -12,8 +12,6 @@ define("DISABLE_DETAILED_LOG_VIEW", true);
 define("DEBUG", true);
 define("SHOW_ONLY_TODAY", true);
 
-$date = new Date();
-
 $page = file_get_contents("https://rates.fxcm.com/RatesXML");
 $xml = new SimpleXMLElement($page);
 $result = $xml->xpath('/Rates/Rate');
