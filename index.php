@@ -1,13 +1,13 @@
 <?php
 define("MYSQL_SERVER", "localhost");
-define("MYSQL_USER", "id725871_ichimoku");
-define("MYSQL_PASSWORD", "Paris75#");
-define("MYSQL_DB", "id725871_ichimoku");
+define("MYSQL_USER", "id000000_ichimoku");
+define("MYSQL_PASSWORD", "00000000");
+define("MYSQL_DB", "000000_ichimoku");
 define("TBL_PREFIX", "ichimoku_server_v3");
 define("CREATE_DB_IF_NOT_EXISTS", true);
 define("CREATE_TABLES_IF_NOT_EXIST", true);
 define("LOG_IP", true);
-define("LOG_IP_IGNORE", "82.245.81.34");
+define("LOG_IP_IGNORE", "127.0.0.1");
 define("DISABLE_DETAILED_LOG_VIEW", true);
 define("DEBUG", true);
 define("SHOW_ONLY_TODAY", true);
